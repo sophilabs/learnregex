@@ -1,0 +1,33 @@
+import importlib
+import inspect
+
+from story.adventures import AdventureVerificationError
+from .data import _
+
+
+def load_solution_function(file, parameters=1):
+    try:
+        if file.endswith('.py'):
+            module_name = file[:-3]
+        elif file.endswith('.pyc'):
+            module_name = file[:-4]
+        else:
+            module_name = file
+        module = importlib.import_module(module_name)
+        function = inspect.getmembers(module, inspect.isfunction)[0][1]
+        assert len(inspect.signature(function).parameters) == parameters
+        return function
+    except ImportError:
+        raise AdventureVerificationError(
+            _("I can't import a module from {}. Are you sure the file exists "
+              "and it's a valid python file?").format(file))
+    except IndexError:
+        raise AdventureVerificationError(
+            _("I can't find a function definition in {}. Read the adventure "
+              "again and use the template proposed there.").format(file))
+    except AssertionError:
+        raise AdventureVerificationError(
+            _("I found a function in your file but it doesn't accept the "
+              "required number of parameters ({}). If you define several "
+              "functions in your file, make sure the solution function is the "
+              "first one.".format(parameters)))
