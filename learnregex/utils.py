@@ -1,5 +1,6 @@
 import importlib
 import inspect
+import random
 
 from story.adventures import AdventureVerificationError
 from .data import _
@@ -31,3 +32,11 @@ def load_solution_function(file, parameters=1):
               "required number of parameters ({}). If you define several "
               "functions in your file, make sure the solution function is the "
               "first one.".format(parameters)))
+
+
+def get_random_string(dictionary, min_length, max_length):
+    result = ''
+    length = random.randint(min_length, max_length)
+    while len(result) < length:
+        result += random.choice(dictionary)
+    return result

@@ -1,13 +1,14 @@
 from story.story import BaseStory
 
-from . import introduction
+from . import introduction, special_characters
 from .data import _
 
 
 class Story(BaseStory):
 
     name = 'learnregex'
-    title = _('Learn regular expressions with Python.')
+    title = _('Learn regular expressions with Python')
     adventures = [
-        introduction
+        introduction,
+        special_characters,
     ]
