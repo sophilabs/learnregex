@@ -1,6 +1,6 @@
 from story.story import BaseStory
 
-from . import introduction, special_characters
+from . import character_classes, introduction, special_characters
 from .data import _
 
 
@@ -11,4 +11,5 @@ class Story(BaseStory):
     adventures = [
         introduction,
         special_characters,
+        character_classes,
     ]
