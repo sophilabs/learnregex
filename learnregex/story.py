@@ -1,7 +1,8 @@
 from story.story import BaseStory
 
-from . import (character_classes, introduction, negated_character_classes,
-               quantifiers, special_characters, the_dot)
+from . import (character_classes, greediness, introduction,
+               negated_character_classes, quantifiers, special_characters,
+               the_dot)
 from .data import _
 
 
@@ -16,4 +17,5 @@ class Story(BaseStory):
         negated_character_classes,
         the_dot,
         quantifiers,
+        greediness,
     ]
