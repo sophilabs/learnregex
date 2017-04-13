@@ -1,5 +1,3 @@
-The dot
-
 The dot matches any character. Consider it like a character class with all
 existing characters in it.
 

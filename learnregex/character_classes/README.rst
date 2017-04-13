@@ -1,5 +1,3 @@
-Character classes
-
 Now that we now what are special characters and how to escape them, let's try
 their actual special meaning. We are going to start with character classes.
 

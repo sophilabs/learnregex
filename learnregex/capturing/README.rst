@@ -1,5 +1,3 @@
-Capturing
-
 Groups provide an additional feature: they capture the string they end up
 matching and save it in a variable that we can use later, either in the same
 regular expression or after it finishes. In python we can use a captured

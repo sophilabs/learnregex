@@ -1,5 +1,3 @@
-Greediness
-
 When using quantifiers sometimes we'll run into an issue where they match
 more than we want. Suppose we want to match the first part (including the
 dot) of a domain. We write the expression '.*\.' thinking "this will return

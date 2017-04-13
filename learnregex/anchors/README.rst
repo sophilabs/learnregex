@@ -1,5 +1,3 @@
-Anchors
-
 Anchors allow us to match specific positions inside a string instead of a
 character. They belong to a group called zero-length matches for this reason.
 

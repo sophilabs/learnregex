@@ -1,5 +1,3 @@
-Groups
-
 Groups have plenty of uses. They basically enclose a section of our
 expression so we can treat it as a token. This allows us to apply quantifiers
 to a whole expression instead of a single character or character class like

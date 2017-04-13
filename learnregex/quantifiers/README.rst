@@ -1,5 +1,3 @@
-Quantifiers
-
 This is one of the most interesting features of regular expressions. It
 allows us to match any number of repetitions of a character (or character
 class, or sequence of characters). We have three predefined quantifiers that
