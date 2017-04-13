@@ -1,3 +1,5 @@
+import string
+
 from story.adventures import AdventureVerificationError, BaseAdventure
 
 from ..data import _
@@ -7,8 +9,7 @@ from ..utils import get_random_string, load_solution_function
 class Adventure(BaseAdventure):
 
     title = _('The dot')
-    dictionary = '0123456789abcdefghijklmnopqrstuvwxyz' \
-                 'ABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&\'()*+,-./:;?@[\\]^_`{|}~ '
+    dictionary = string.ascii_lowercase + string.digits + string.punctuation
 
     def test(self, file):
         function = load_solution_function(file)

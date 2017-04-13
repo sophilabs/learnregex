@@ -1,3 +1,5 @@
+import string
+
 from story.adventures import AdventureVerificationError, BaseAdventure
 
 from ..data import _
@@ -7,7 +9,7 @@ from ..utils import get_random_string, load_solution_function
 class Adventure(BaseAdventure):
 
     title = _('Greediness')
-    dictionary = 'abcdefghijlmnopqrstuvwxyz0123456789'
+    dictionary = string.ascii_lowercase + string.digits
 
     def test(self, file):
         function = load_solution_function(file)

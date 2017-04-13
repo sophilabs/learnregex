@@ -1,4 +1,5 @@
 import random
+import string
 
 from story.adventures import AdventureVerificationError, BaseAdventure
 
@@ -9,7 +10,7 @@ from ..utils import get_random_string, load_solution_function
 class Adventure(BaseAdventure):
 
     title = _('Negated character classes')
-    dictionary = 'abcdefghijlmnopqrstuvwxyz'
+    dictionary = string.ascii_lowercase
 
     def test(self, file):
         function = load_solution_function(file)
