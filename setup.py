@@ -23,9 +23,9 @@ setup(
     version='0.1.0',
     description="A pyschool story for learning regular expressions.",
     long_description=readme + '\n\n' + history,
-    author="Javier Ayres",
-    author_email='jayres@sophilabs.com',
-    url='https://github.com/lufte/learnregex',
+    author="Sophilabs",
+    author_email='hi@sophilabs.co',
+    url='https://github.com/sophilabs/learnregex',
     packages=[
         'learnregex',
     ],
