@@ -1,4 +1,4 @@
-Now that we now what are special characters and how to escape them, let's try
+Now that we now what special characters are and how to escape them, let's try
 their actual special meaning. We are going to start with character classes.
 
 A character class matches one out of a set of characters that we define. You

@@ -23,6 +23,6 @@ class Adventure(BaseAdventure):
         if result != prefix:
             raise AdventureVerificationError(
                 _("Your function didn't return the expected string '{}' when "
-                  "executed with a correct argument '{}'. "
+                  "executed with '{}'. "
                   "It returned '{}'.".format(prefix, correct_argument, result))
             )

@@ -6,5 +6,5 @@
 
 
     def test(string):
-        return re.match(r'red|green|blue', string)
+        return re.match(r'red$|green$|blue$', string)
 

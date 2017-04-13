@@ -27,5 +27,5 @@ When you are done, you must run:
 
     $ {script} verify program.py
 
-to proceed. Your program will be tested, a report will be generated, and the
-lesson will be marked 'completed' if you are successful.
+Your program will be tested and the lesson will be marked 'completed' if you
+are successful.
