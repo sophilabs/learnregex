@@ -25,9 +25,9 @@ env:
 - TOXENV=py35
 - TOXENV=py34
 - TOXENV=py33
-install: pip install -U tox
+install: pip install -U tox pybabel
 language: python
 python: 3.5
 script:
-- make msg
+- pybabel compile -D pyschool -d learnregex/locale -f --statistics
 - tox -e ${TOXENV}
