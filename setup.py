@@ -20,7 +20,7 @@ setup(
     packages=['learnregex'],
     entry_points={
         'console_scripts': [
-            'learnregex=learnregex.story:Story.begin'
+            'learnregex=learnregex:Story.begin'
         ]
     },
     include_package_data=True,

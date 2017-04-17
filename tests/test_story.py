@@ -1,4 +1,4 @@
-from learnregex.story import Story
+from learnregex import Story
 
 
 class TestStory(object):
