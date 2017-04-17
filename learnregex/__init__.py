@@ -2,4 +2,4 @@
 
 __author__ = """Sophilabs"""
 __email__ = 'hi@sophilabs.co'
-__version__ = '0.2.2'
+__version__ = '0.3.0'
