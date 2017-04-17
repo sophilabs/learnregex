@@ -8,7 +8,7 @@ from . import (alternation, anchors, capturing, character_classes, greediness,
 
 __author__ = """Sophilabs"""
 __email__ = 'hi@sophilabs.co'
-__version__ = '0.4.8'
+__version__ = '0.4.9'
 
 
 class Story(BaseStory):
