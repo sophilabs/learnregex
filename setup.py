@@ -9,13 +9,6 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [
-    'story'
-]
-
-test_requirements = [
-]
-
 setup(
     name='learnregex',
     version='0.3.1',
@@ -24,17 +17,13 @@ setup(
     author='Sophilabs',
     author_email='hi@sophilabs.co',
     url='https://github.com/sophilabs/learnregex',
-    packages=[
-        'learnregex',
-    ],
-    package_dir={'learnregex': 'learnregex'},
     entry_points={
         'console_scripts': [
             'learnregex=learnregex.story:Story.begin'
         ]
     },
     include_package_data=True,
-    install_requires=requirements,
+    install_requires=['story'],
     license='MIT license',
     zip_safe=False,
     keywords='learnregex',
@@ -49,5 +38,5 @@ setup(
         'Programming Language :: Python :: 3.5',
     ],
     test_suite='tests',
-    tests_require=test_requirements
+    tests_require=[]
 )
