@@ -17,6 +17,7 @@ setup(
     author='Sophilabs',
     author_email='hi@sophilabs.co',
     url='https://github.com/sophilabs/learnregex',
+    package_dir={'learnregex': 'learnregex'},
     entry_points={
         'console_scripts': [
             'learnregex=learnregex.story:Story.begin'
