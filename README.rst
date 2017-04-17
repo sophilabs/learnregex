@@ -9,10 +9,6 @@ learnregex
 .. image:: https://img.shields.io/travis/sophilabs/learnregex.svg
         :target: https://travis-ci.org/sophilabs/learnregex
 
-.. image:: https://readthedocs.org/projects/learnregex/badge/?version=latest
-        :target: https://learnregex.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
 .. image:: https://pyup.io/repos/github/sophilabs/learnregex/shield.svg
      :target: https://pyup.io/repos/github/sophilabs/learnregex/
      :alt: Updates
