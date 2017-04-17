@@ -3,7 +3,7 @@ import inspect
 import random
 
 from story.adventures import AdventureVerificationError
-from .data import _
+from story.translation import gettext as _
 
 
 def load_solution_function(file, parameters=1):

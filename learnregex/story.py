@@ -1,9 +1,9 @@
 from story.story import BaseStory
+from story.translation import gettext as _
 
 from . import (alternation, anchors, capturing, character_classes, greediness,
                groups, introduction, negated_character_classes, quantifiers,
                special_characters, the_dot)
-from .data import _
 
 
 class Story(BaseStory):

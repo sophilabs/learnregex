@@ -5,9 +5,9 @@ Credits
 Development Lead
 ----------------
 
-* Sophilabs <hi@sophilabs.co>
+* Javier Ayres <jayres@sophilabs.com>
 
 Contributors
 ------------
 
-* Javier Ayres <jayres@sophilabs.com>
+* Pablo Ricco <pricco@sophilabs.com>

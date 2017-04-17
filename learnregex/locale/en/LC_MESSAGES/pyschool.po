@@ -1,0 +1,117 @@
+# English translations for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-04-16 21:15-0300\n"
+"PO-Revision-Date: 2017-04-16 21:13-0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: learnregex/story.py:12
+msgid "Learn regular expressions with Python"
+msgstr ""
+
+#: learnregex/utils.py:23
+msgid ""
+"I can't import a module from {}. Are you sure the file exists and it's a "
+"valid python file?"
+msgstr ""
+
+#: learnregex/utils.py:27
+msgid ""
+"I can't find a function definition in {}. Read the adventure again and "
+"use the template proposed there."
+msgstr ""
+
+#: learnregex/utils.py:34
+msgid ""
+"I found a function in your file but it doesn't accept the required number"
+" of parameters ({}). If you define several functions in your file, make "
+"sure the solution function is the first one."
+msgstr ""
+
+#: learnregex/alternation/__init__.py:11
+msgid "Alternation"
+msgstr ""
+
+#: learnregex/alternation/__init__.py:20 learnregex/anchors/__init__.py:20
+#: learnregex/capturing/__init__.py:21
+#: learnregex/character_classes/__init__.py:24 learnregex/groups/__init__.py:21
+#: learnregex/introduction/__init__.py:17
+#: learnregex/negated_character_classes/__init__.py:21
+#: learnregex/quantifiers/__init__.py:23
+#: learnregex/special_characters/__init__.py:23
+#: learnregex/the_dot/__init__.py:22
+msgid ""
+"Your function didn't return True when executed with a correct argument "
+"'{}'."
+msgstr ""
+
+#: learnregex/alternation/__init__.py:27 learnregex/anchors/__init__.py:26
+#: learnregex/capturing/__init__.py:30
+#: learnregex/character_classes/__init__.py:30 learnregex/groups/__init__.py:27
+#: learnregex/introduction/__init__.py:23
+#: learnregex/negated_character_classes/__init__.py:30
+#: learnregex/quantifiers/__init__.py:29
+#: learnregex/special_characters/__init__.py:29
+#: learnregex/the_dot/__init__.py:28
+msgid "Your function returned True when executed with a wrong argument '{}'."
+msgstr ""
+
+#: learnregex/anchors/__init__.py:11
+msgid "Anchors"
+msgstr ""
+
+#: learnregex/capturing/__init__.py:11
+msgid "Capturing"
+msgstr ""
+
+#: learnregex/character_classes/__init__.py:12
+msgid "Character classes"
+msgstr ""
+
+#: learnregex/greediness/__init__.py:11
+msgid "Greediness"
+msgstr ""
+
+#: learnregex/greediness/__init__.py:27
+msgid ""
+"Your function didn't return the expected string '{}' when executed with "
+"'{}'. It returned '{}'."
+msgstr ""
+
+#: learnregex/groups/__init__.py:11
+msgid "Groups"
+msgstr ""
+
+#: learnregex/introduction/__init__.py:9
+msgid "Introduction"
+msgstr ""
+
+#: learnregex/negated_character_classes/__init__.py:12
+msgid "Negated character classes"
+msgstr ""
+
+#: learnregex/quantifiers/__init__.py:11
+msgid "Quantifiers"
+msgstr ""
+
+#: learnregex/special_characters/__init__.py:11
+msgid "Special characters"
+msgstr ""
+
+#: learnregex/the_dot/__init__.py:11
+msgid "The dot"
+msgstr ""
+

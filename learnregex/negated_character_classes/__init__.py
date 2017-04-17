@@ -2,8 +2,8 @@ import random
 import string
 
 from story.adventures import AdventureVerificationError, BaseAdventure
+from story.translation import gettext as _
 
-from ..data import _
 from ..utils import get_random_string, load_solution_function
 
 
