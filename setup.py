@@ -11,7 +11,7 @@ with open('HISTORY.rst') as history_file:
 
 setup(
     name='learnregex',
-    version='0.4.2',
+    version='0.4.3',
     description='A pyschool story for learning regular expressions.',
     long_description=readme + '\n\n' + history,
     author='Sophilabs',
