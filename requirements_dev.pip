@@ -8,4 +8,5 @@ coverage==4.1
 cryptography==1.7
 PyYAML==3.11
 pytest==2.9.2
+Babel==2.4.0
 story==1.1.3
