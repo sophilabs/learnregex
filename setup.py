@@ -10,6 +10,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
+    'story'
 ]
 
 test_requirements = [
@@ -29,7 +30,7 @@ setup(
     package_dir={'learnregex': 'learnregex'},
     entry_points={
         'console_scripts': [
-            'learnregex=learnregex.cli:main'
+            'learnregex=learnregex.story:Story.begin'
         ]
     },
     include_package_data=True,
