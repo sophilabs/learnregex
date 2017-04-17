@@ -24,7 +24,9 @@ setup(
         ]
     },
     include_package_data=True,
-    install_requires=['story'],
+    install_requires=[
+        'story>=1.1.2'
+    ],
     license='MIT license',
     zip_safe=False,
     keywords='learnregex',
