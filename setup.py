@@ -26,8 +26,7 @@ setup(
     packages=[
         'learnregex',
     ],
-    package_dir={'learnregex':
-                 'learnregex'},
+    package_dir={'learnregex': 'learnregex'},
     entry_points={
         'console_scripts': [
             'learnregex=learnregex.cli:main'
