@@ -17,7 +17,7 @@ test_requirements = [
 
 setup(
     name='learnregex',
-    version='0.1.0',
+    version='0.2.0',
     description='A pyschool story for learning regular expressions.',
     long_description=readme + '\n\n' + history,
     author='Sophilabs',
