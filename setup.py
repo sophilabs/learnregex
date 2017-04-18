@@ -27,6 +27,7 @@ setup(
     install_requires=[
         'story>=1.1.5'
     ],
+    python_requires='!=2, !=3.0.*, !=3.1.*, !=3.2.*, <4',
     license='MIT license',
     zip_safe=False,
     keywords='learnregex',
